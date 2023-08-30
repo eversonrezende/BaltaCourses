@@ -12,9 +12,10 @@ using(var connection = new SqlConnection(connectionString))
   //CreateManyCategory(connection);
   //UpdateCategory(connection);
   //ExecuteReadProcedure(connection);
-  ExecuteScalar(connection);
+  //ExecuteScalar(connection);
   //ListCategories(connection);
   //CreateCategory(connection);
+  ReadView(connection);
 }
 
 static void ListCategories(SqlConnection connection)
@@ -183,4 +184,15 @@ static void ExecuteScalar(SqlConnection connection)
   });
 
   Console.WriteLine($"A categoria inserida foi: {id}");
+}
+
+static void ReadView(SqlConnection connection)
+{
+  var sql = "SELECT * FROM [vwCourses]";
+  var courses = connection.Query(sql);
+
+  foreach(var item in courses)
+  {
+    Console.WriteLine($"{item.ID} - {item.Title}");
+  }
 }
