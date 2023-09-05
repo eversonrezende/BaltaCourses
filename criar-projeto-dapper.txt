@@ -1,0 +1,11 @@
+DAPPER
+
+Primeiro crie um projeto, pode ser do tipo console:
+dotnet new console
+
+Caso tenha o banco de dados, crie uma pasta Models e uma classe para cada entidade.
+
+Para começar a usar o Dapeer no projeto, instale os seguintes pacotes:
+dotnet add package Microsoft.Data.SqlClient
+dotnet add package Dapper
+dotnet add package Dapper.Contrib
