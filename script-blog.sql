@@ -97,3 +97,21 @@ VALUES (
 )
 
 SELECT * FROM [User];
+
+SELECT * FROM [Role];
+
+SELECT * FROM [Tag];
+
+INSERT INTO
+    [Role]
+VALUES (
+    'Author',
+    'author'
+);
+
+INSERT INTO
+    [Tag]
+VALUES (
+    'ASP.NET',
+    'asp-net'
+);

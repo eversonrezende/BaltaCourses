@@ -12,10 +12,8 @@ namespace Blog
       var connection = new SqlConnection(CONNECTION_STRING);
       connection.Open();
       ReadUsers(connection);
-      //ReadUser();
-      //CreateUser();
-      //UpdateUser();
-      //DeleteUser();
+      ReadRoles(connection);
+      ReadTags(connection);
       connection.Close();
     }
 
@@ -23,61 +21,29 @@ namespace Blog
 
     public static void ReadUsers(SqlConnection connection)
     {
-      var repository = new UserRepository(connection);
-      var users = repository.Get();
+      var repository = new Repository<User>(connection);
+      var items = repository.Get();
 
-      foreach (var user in users)
-          Console.WriteLine(user.Name);
+      foreach (var item in items)
+          Console.WriteLine(item.Name);
     }
 
-    public static void ReadUser()
+    public static void ReadRoles(SqlConnection connection)
     {
-      using var connection = new SqlConnection(CONNECTION_STRING);
-      var user = connection.Get<User>(1);
-      Console.WriteLine(user.Name);
+      var repository = new Repository<Role>(connection);
+      var items = repository.Get();
+
+      foreach (var item in items)
+          Console.WriteLine(item.Name);
     }
 
-    public static void CreateUser()
+    public static void ReadTags(SqlConnection connection)
     {
-      var user = new User
-      {
-        Bio = "Equipe balta.io",
-        Email = "hello@balta.io",
-        Image = "https://...",
-        Name = "Equipe Balta.io",
-        PasswordHash = "HASH",
-        Slug = "equipe-balta"
-      };
+      var repository = new Repository<Tag>(connection);
+      var items = repository.Get();
 
-      using var connection = new SqlConnection(CONNECTION_STRING);
-      connection.Insert<User>(user);
-      Console.WriteLine("Cadastro realizado com sucesso");
-    }
-
-    public static void UpdateUser()
-    {
-      var user = new User
-      {
-        Id = 2,
-        Bio = "Equipe | balta.io",
-        Email = "hello@balta.io",
-        Image = "https://...",
-        Name = "Equipe de suporte Balta.io",
-        PasswordHash = "HASH",
-        Slug = "equipe-balta"
-      };
-
-      using var connection = new SqlConnection(CONNECTION_STRING);
-      connection.Update<User>(user);
-      Console.WriteLine("Atualização realizada com sucesso");
-    }
-
-    public static void DeleteUser()
-    {
-      using var connection = new SqlConnection(CONNECTION_STRING);
-      var user = connection.Get<User>(2);
-      connection.Delete<User>(user);
-      Console.WriteLine("Exclusão realizada com sucesso");
+      foreach (var item in items)
+          Console.WriteLine(item.Name);
     }
 
   }
