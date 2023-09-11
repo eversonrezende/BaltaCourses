@@ -100,6 +100,8 @@ SELECT * FROM [User];
 
 SELECT * FROM [Role];
 
+SELECT * FROM [UserRole];
+
 SELECT * FROM [Tag];
 
 INSERT INTO
@@ -114,4 +116,11 @@ INSERT INTO
 VALUES (
     'ASP.NET',
     'asp-net'
+);
+
+INSERT INTO
+    [UserRole]
+VALUES (
+    1,
+    1
 );
