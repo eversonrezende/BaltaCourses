@@ -1,15 +1,15 @@
 DESAFIOS
 ---------------
 
-Cadastrar um usuário
-Cadastrar um perfil
-Vincular um usuário a um perfil
+Cadastrar um usuário - ok
+Cadastrar um perfil - ok
+Vincular um usuário a um perfil - ok
 
-Cadastrar uma categoria
+Cadastrar uma categoria - ok
 
-Cadastrar uma tag
+Cadastrar uma tag - ok
 
-Cadastrar um post
+Cadastrar um post 
 
 Vincular um post a uma tag
 

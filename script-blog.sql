@@ -124,3 +124,20 @@ VALUES (
     1,
     1
 );
+
+SELECT
+    *
+FROM
+    [User]
+LEFT JOIN [UserRole] ON [UserRole].UserId = [User].Id
+LEFT JOIN [Role] ON [UserRole].RoleId = [Role].Id;
+
+SELECT
+    *
+FROM
+    [UserRole];
+
+SELECT
+    *
+FROM
+    [Role];
