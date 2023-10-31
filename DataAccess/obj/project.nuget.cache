@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nugTHBMKG7KmROnXDnAYNPb3LU0wtU+Fk+BIDh9YTdSqH7ArsM2d31vjNdTD8y0JTQ/SlpG/3NND2fJDnHG6AQ==",
+  "dgSpecHash": "SJfXUKoWyRb+KS2Lg5yVisgJPisjnLGu/OB1KWauS7r2Cv9cOBqlIc2GAiDN95NtS18P28NvVJY4CvDlCOMimw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\Balta\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "c:\\dev\\Balta\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erezende\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\erezende\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

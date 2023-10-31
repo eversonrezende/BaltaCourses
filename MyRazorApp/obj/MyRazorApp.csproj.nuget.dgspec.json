@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\Balta\\BlogEF-FluentMapping\\BlogEF.csproj": {}
+    "C:\\dev\\Balta\\MyRazorApp\\MyRazorApp.csproj": {}
   },
   "projects": {
-    "c:\\dev\\Balta\\BlogEF-FluentMapping\\BlogEF.csproj": {
+    "C:\\dev\\Balta\\MyRazorApp\\MyRazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\Balta\\BlogEF-FluentMapping\\BlogEF.csproj",
-        "projectName": "BlogEF",
-        "projectPath": "c:\\dev\\Balta\\BlogEF-FluentMapping\\BlogEF.csproj",
+        "projectUniqueName": "C:\\dev\\Balta\\MyRazorApp\\MyRazorApp.csproj",
+        "projectName": "MyRazorApp",
+        "projectPath": "C:\\dev\\Balta\\MyRazorApp\\MyRazorApp.csproj",
         "packagesPath": "C:\\Users\\erezende\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\Balta\\BlogEF-FluentMapping\\obj\\",
+        "outputPath": "C:\\dev\\Balta\\MyRazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,22 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -67,6 +51,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
