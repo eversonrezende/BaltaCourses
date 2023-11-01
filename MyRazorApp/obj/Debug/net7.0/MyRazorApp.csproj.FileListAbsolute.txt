@@ -1,5 +1,6 @@
 C:\dev\Balta\MyRazorApp\bin\Debug\net7.0\appsettings.Development.json
 C:\dev\Balta\MyRazorApp\bin\Debug\net7.0\appsettings.json
+C:\dev\Balta\MyRazorApp\bin\Debug\net7.0\MyRazorApp.staticwebassets.runtime.json
 C:\dev\Balta\MyRazorApp\bin\Debug\net7.0\MyRazorApp.exe
 C:\dev\Balta\MyRazorApp\bin\Debug\net7.0\MyRazorApp.deps.json
 C:\dev\Balta\MyRazorApp\bin\Debug\net7.0\MyRazorApp.runtimeconfig.json
@@ -10,6 +11,8 @@ C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\MyRazorApp.AssemblyInfoInputs.cache
 C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\MyRazorApp.AssemblyInfo.cs
 C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\MyRazorApp.csproj.CoreCompileInputs.cache
 C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\MyRazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\MyRazorApp.RazorAssemblyInfo.cache
+C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\MyRazorApp.RazorAssemblyInfo.cs
 C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\staticwebassets\msbuild.MyRazorApp.Microsoft.AspNetCore.StaticWebAssets.props
 C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\staticwebassets\msbuild.build.MyRazorApp.props
 C:\dev\Balta\MyRazorApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MyRazorApp.props
